@@ -1,0 +1,73 @@
+# 🏦 Banking Application (Java OOP)
+
+## 📌 Overview
+
+This project is a simple **Banking Application** built using **Java OOP concepts**.
+It demonstrates how different types of accounts work using **inheritance and method overriding**.
+
+---
+
+## ⚙️ Features
+
+* Create customers with multiple accounts
+* Support for:
+
+  * 💰 Savings Account
+  * 💳 Loan Account
+* Perform transactions:
+
+  * Deposit
+  * Withdraw
+* Display **consolidated customer account details**
+
+---
+
+## 🧠 OOP Concepts Used
+
+* Inheritance (`Account` → `SavingsAccount`, `LoanAccount`)
+* Method Overriding (`deposit()`, `withdraw()`)
+* Encapsulation (class-based structure)
+* ArrayList (to store multiple customers & accounts)
+
+---
+
+## 📂 Project Structure
+
+```
+Account.java
+SavingsAccount.java
+LoanAccount.java
+Customer.java
+MainApp.java
+```
+
+---
+
+## ▶️ How to Run
+
+1. Compile all files:
+
+```
+javac *.java
+```
+
+2. Run the program:
+
+```
+java MainApp
+```
+
+---
+
+## 📊 Sample Output
+
+* Transaction demo for Savings & Loan accounts
+* Consolidated table of all customers with account details
+
+---
+
+## 🚀 Conclusion
+
+This project provides a basic understanding of **real-world banking logic using Java OOP**, suitable for academic practice and lab exams.
+
+---
