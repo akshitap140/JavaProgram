@@ -1,0 +1,135 @@
+# 📌 Java Vector Operations (2D & 3D)
+
+This project implements a Vector class in Java that supports operations on 2D and 3D vectors with proper exception handling.
+
+---
+
+## 📖 Assignment Details
+This project is based on Java Lab Assignment 4.
+
+### 🎯 Objective
+- Create a Vector class
+- Allow only 2D or 3D vectors
+- Perform vector operations:
+  - Addition
+  - Subtraction
+  - Dot Product
+- Implement custom exception handling using VectorException
+
+---
+
+## 📂 Project Structure
+
+Vector-Operations-Java/
+│── Vector.java  
+│── VectorException.java  
+│── VectorOperations.java  
+│── README.md  
+
+---
+
+## ⚙️ Features
+
+### ✅ Vector Validation
+- Only allows vectors of dimension 2 or 3
+- Throws exception for invalid dimensions
+
+### ➕ Vector Operations
+- add() → Returns sum of two vectors  
+- subtract() → Returns difference  
+- dotProduct() → Returns scalar value  
+
+### ⚠️ Exception Handling
+- Custom exception class: VectorException
+- Handles:
+  - Invalid dimensions
+  - Mismatched vector sizes
+
+---
+
+## 🧠 Core Classes
+
+### 🔹 Vector Class
+- Stores vector components in an array
+- Validates dimensions (2D or 3D only)
+- Methods:
+  - add(Vector v2)
+  - subtract(Vector v2)
+  - dotProduct(Vector v2)
+  - display(String label)
+
+---
+
+### 🔹 VectorException Class
+- Custom exception for vector-related errors
+
+---
+
+### 🔹 VectorOperations (Main Class)
+- Takes user input
+- Performs operations
+- Displays results
+- Handles exceptions gracefully
+
+---
+
+## ▶️ How to Run
+
+### 1. Compile the program
+javac Vector.java VectorException.java VectorOperations.java
+
+### 2. Run the program
+java VectorOperations
+
+---
+
+## 💻 Sample Output
+
+### ✔️ Valid Input
+Enter dimension for Vector 1 (2 or 3): 3  
+Enter 3 components:  
+1 2 3  
+
+Enter dimension for Vector 2 (2 or 3): 3  
+Enter 3 components:  
+4 5 6  
+
+--- Results ---  
+Vector 1: (1.0, 2.0, 3.0)  
+Vector 2: (4.0, 5.0, 6.0)  
+Addition Result: (5.0, 7.0, 9.0)  
+Subtraction Result: (-3.0, -3.0, -3.0)  
+Dot Product: 32.0  
+
+---
+
+### ❌ Dimension Mismatch
+Error: Dimensions must be the same for this operation.
+
+---
+
+### ❌ Invalid Dimension
+Error: Vector must be either 2D or 3D.
+
+---
+
+## 🚀 Key Concepts Used
+- Object-Oriented Programming (OOP)
+- Exception Handling
+- Arrays in Java
+- User Input using Scanner
+
+---
+
+## 📌 Future Improvements
+- Support for n-dimensional vectors
+- Add cross product
+- GUI-based interface
+- Unit testing using JUnit
+
+---
+
+## 👩‍💻 Author
+Akshita Mukhia  
+AIML-A2  
+PRN: 24070126025  
